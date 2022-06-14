@@ -1,5 +1,4 @@
 #/opt/TSI/server-maintenance.sh
-
 #!/bin/bash
 
 while true;
